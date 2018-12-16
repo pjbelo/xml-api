@@ -11,8 +11,7 @@ Level: beginner
 Pre requisites: basic knowledge of Rails
 
 Please visit the link to view tutorial on Medium:
-
-https://medium.com/@pjbelo/
+https://medium.com/@pjbelo/building-an-xml-api-with-rails-79379b305a6
 
 You can check the commit history for the different code versions.
 
