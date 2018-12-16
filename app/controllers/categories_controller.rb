@@ -5,11 +5,19 @@ class CategoriesController < ApplicationController
   # GET /categories.json
   def index
     @categories = Category.all
+    respond_to do |format|
+      format.html
+      format.xml { render xml: @categories.as_json(only: [:id, :name], skip_types: true, root: true, include: {products: {only: [:name, :quantity]}} ) }
+    end
   end
 
   # GET /categories/1
   # GET /categories/1.json
   def show
+    respond_to do |format|
+      format.html
+      format.xml { render xml: @category.as_json }
+    end
   end
 
   # GET /categories/new
