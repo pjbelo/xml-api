@@ -1,24 +1,23 @@
-# README
+# Building an XML API with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Step-by-step Tutorial
 
-Things you may want to cover:
+![intro image](/app/assets/images/xml-rails.jpg "Intro Image")
 
-* Ruby version
+XML is old news. But maybe you have never used it and now you need to. It happened to me recently. In this article I'll share what I've learned about building an XML API, using a step-by-step tutorial.
 
-* System dependencies
+Level: beginner
 
-* Configuration
+Pre requisites: basic knowledge of Rails
 
-* Database creation
+Please visit the link to view tutorial on Medium:
 
-* Database initialization
+https://medium.com/@pjbelo/
 
-* How to run the test suite
+You can check the commit history for the different code versions.
 
-* Services (job queues, cache servers, search engines, etc.)
+Please feel free to contact. I'll be glad to help if I can :-)
 
-* Deployment instructions
+Cheers,
 
-* ...
+Paulo
