@@ -12,6 +12,10 @@ class ProductsController < ApplicationController
   def show
   end
 
+  def products_by_category
+    @categories = Category.all
+  end
+
   # GET /products/new
   def new
     @product = Product.new
